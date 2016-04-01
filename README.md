@@ -67,7 +67,7 @@ To define the permissions, you fill out the `Ability` class, which goes a bit li
 ```ruby
     class Ability
       include CanCan::Ability
-      
+
       def initialize(user)
         if user.admin?
           # only admins can change things
