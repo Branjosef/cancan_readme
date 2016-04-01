@@ -88,7 +88,7 @@ This will let the user write any article whose `owner_id` is her user id. (That 
 ```ruby
     can :read, Article, :category => { :visible => true }
 ```
-This will let the user `:read` any `Project` whose `category`'s `visible` column is `true`.
+This will let the user `:read` any `Article` whose `category`'s `visible` column is `true`.
 
 CanCanCan doesn't make any assumptions about how you've stored permission information in your user model. It's up to you to add the appropriate fields to support your authorization scheme.
 
