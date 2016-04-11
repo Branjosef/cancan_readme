@@ -80,7 +80,11 @@ To define the permissions, you fill out the `Ability` class, which goes a bit li
 ```
 Your `Ability` class is passed an instance of your `User` model by calling the current_user method. In the initializer, you call `can` or `cannot` to define what this particular user can do.
 
-`can` and `cannot` both take as arguments the action as a symbol and an ActiveRecord class, an instance of which is the target of the action. You can be more specific if you want to allow or disallow actions based on information in the models. For example,
+`can` and `cannot` both take these arguments:
+--the action, written as a symbol 
+--an ActiveRecord class, an instance of which is the target of the action. 
+
+You can be more specific if you want to allow or disallow actions based on information in the models. For example,
 ```ruby
     can :write, Article, owner_id: user.id
 ```
