@@ -102,7 +102,7 @@ Here is a basic CanCanCan Ability class for a message board.
 
 The rules are: anyone can post. Registered users can edit their post after posting (but not delete it). Moderators can do anything to any post.
 ```ruby
-    class Abilility
+    class Ability
       include CanCan::Ability
 
       def initialize(user)
