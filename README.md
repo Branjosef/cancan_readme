@@ -122,6 +122,10 @@ The rules are: anyone can post. Registered users can edit their post after posti
 ```
 `:manage` is a special CanCanCan action which means "any action". So users with an admin column set to `true` can do anything to any Post.
 
+## Video Review
+
+* [Building Authorization and Metaprogramming](https://github.com/learn-co-curriculum/rails-video-review-building-authorization-and-metaprogramming) 
+
 ## Resources
   * [CanCanCan]
 
