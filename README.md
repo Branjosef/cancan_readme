@@ -124,7 +124,7 @@ The rules are: anyone can post. Registered users can edit their post after posti
 
 ## Video Review
 
-* [Building Authorization and Metaprogramming](https://github.com/learn-co-curriculum/rails-video-review-building-authorization-and-metaprogramming) 
+* [Building Authorization and Metaprogramming](https://www.youtube.com/watch?v=wsbfUc-CPbg) 
 
 ## Resources
   * [CanCanCan]
