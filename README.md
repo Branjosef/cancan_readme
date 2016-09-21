@@ -41,7 +41,8 @@ end
 
 If the user authorization fails, a CanCan::AccessDenied exception will be raised. You can catch this and modify its behavior in the ApplicationController.
 
-```class ApplicationController < ActionController::Base
+```ruby
+class ApplicationController < ActionController::Base
   rescue_from CanCan::AccessDenied do |exception|
     redirect_to root_url, :alert => exception.message
   end
@@ -53,9 +54,9 @@ In your views, it might look like this:
     <% if can? :update, @article %>
       <%= link_to "Edit", edit_article_path(@article) %>
     <% end %>
-
+```
 Or maybe this:
-
+```erb
    <% if cannot? :update, @article %>
      Editing disabled.
    <% end %>
