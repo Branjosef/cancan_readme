@@ -133,5 +133,3 @@ The rules are: anyone can post. Registered users can edit their post after posti
 
 [CanCanCan]: https://github.com/CanCanCommunity/cancancan
 <p data-visibility='hidden'>View <a href='https://learn.co/lessons/cancan_readme'>Cancan </a> on Learn.co and start learning to code for free.</p>
-
-<p class='util--hide'>View <a href='https://learn.co/lessons/cancan_readme'>Cancan </a> on Learn.co and start learning to code for free.</p>
