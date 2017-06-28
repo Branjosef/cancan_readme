@@ -25,7 +25,7 @@ In your controllers, it looks like this:
 ```
 Here we're calling CanCanCan's `authorize!` method to determine if the user can `:read` this `@article`. If they can't, an exception is thrown.
 
-Setting this for every action can be tedious, therefore the load_and_authorize_resource method is provided to automatically authorize all actions in a controller. It will use a before filter to load the resource into an instance variable and authorize it for every action.
+Setting this for every action can be tedious. Therefore, the load_and_authorize_resource method is provided to automatically authorize all actions in a controller. It will use a before filter to load the resource into an instance variable and authorize it for every action.
 
 ```ruby
 class ArticlesController < ApplicationController
