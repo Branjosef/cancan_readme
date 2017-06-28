@@ -65,6 +65,8 @@ Or maybe this:
 ##Abilities
 To generate the ability file you can run `rails g cancan:ability`
 
+This creates an `ability.rb` file in your `models` directory with an `Ability` class inside.
+
 To define the permissions, you fill out the `Ability` class, which goes a bit like this:
 ```ruby
     class Ability
